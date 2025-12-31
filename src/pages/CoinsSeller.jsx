@@ -72,9 +72,8 @@ export default function CoinsSeller() {
         <button className="w-full bg-blue-500 text-white py-3 rounded-full font-semibold shadow-md">
           Send
         </button>
-<div className="shadow-md">
        <BalanceCard />
-       </div>
+       
        </div>
     </div>
   );

@@ -4,7 +4,7 @@ export default function Balance() {
   const navigate = useNavigate();
 
   return (
-    <div className="min-h-screen w-full bg-white overflow-x-hidden">
+    <div className="min-h-screen w-full bg-white overflow-x-hidden ">
 
       {/* HEADER */}
       <div className="relative w-full h-[56px] bg-[#1c1c2b] flex items-center px-4">
