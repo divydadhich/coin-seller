@@ -57,7 +57,7 @@ export default function CoinsSeller() {
             <label className="text-sm text-gray-500">Quantity</label>
             <div className="relative mt-2 w-full">
               <input
-                placeholder="Please enter the amount of gold coins"
+                placeholder="Please enter the amount "
                 className="w-full bg-gray-100 rounded-full px-4 py-3 pr-16 text-[16px] outline-none"
               />
               <div className="absolute right-2 top-1/2 -translate-y-1/2 w-10 h-10 bg-yellow-400 rounded-full flex items-center justify-center">

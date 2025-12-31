@@ -6,7 +6,7 @@ export default function QuantityInput() {
       <div className="relative mt-2 w-full">
         <input
           type="number"
-          placeholder="Please enter the amount of gold coins"
+          placeholder="Please enter the amount "
           className="
             w-full
             bg-gray-100
