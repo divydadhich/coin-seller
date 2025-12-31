@@ -8,7 +8,7 @@ export default function QuantityInput() {
           type="number"
           placeholder="Please enter the amount of gold coins"
           className="w-full bg-gray-100 rounded-full
-                     px-4 py-3 pr-16 outline-none text-sm"
+                     px-4 py-3 pr-16 outline-none text-[16px]"
         />
 
         <div

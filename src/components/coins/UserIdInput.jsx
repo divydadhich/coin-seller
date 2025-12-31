@@ -15,7 +15,7 @@ export default function UserIdInput() {
         pr-24
         py-2.5
         outline-none
-        text-sm
+        text-[16px]
       "
     />
 
