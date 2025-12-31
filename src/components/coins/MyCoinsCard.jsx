@@ -1,6 +1,17 @@
 export default function MyCoinsCard() {
   return (
-    <div className="bg-white rounded-xl p-4 flex justify-between items-center shadow-sm mb-4">
+    <div
+      className="
+        w-full
+        bg-white
+        rounded-xl
+        p-4
+        flex justify-between items-center
+        shadow-md
+        mt-4
+        mb-4
+      "
+    >
       <p className="text-gray-500">
         My coins:{" "}
         <span className="text-orange-400 font-semibold">0.00</span>

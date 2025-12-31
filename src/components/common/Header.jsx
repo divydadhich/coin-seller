@@ -4,18 +4,30 @@ export default function Header({ title }) {
   const navigate = useNavigate();
 
   return (
-    <div className="flex items-center mb-4">
+    <div
+      className="
+        relative
+        w-full
+        flex items-center
+        h-[56px]
+        px-4
+        bg-[#1c1c2b]
+        overflow-x-hidden
+      "
+    >
+      {/* BACK */}
       <button
         onClick={() => navigate(-1)}
-        className="absolute left-4 text-[22px] font-medium text-gray-900"
+        className="absolute left-4 text-[22px] font-medium text-white"
         aria-label="Back"
       >
         &lt;
       </button>
-      <h1 className="flex-1 text-center text-lg font-semibold">
+
+      {/* TITLE */}
+      <h1 className="w-full text-center text-[16px] font-medium text-white">
         {title}
       </h1>
-      <div className="w-6" />
     </div>
   );
 }
